@@ -45,12 +45,3 @@ namespace MVCClienteJsonEmpleados.Models
 
 
 
-
-/*List<Empleado> lista;
-            WebClient cliente = new WebClient();
-            String url = "https://webapiempleadosroutejgd.azurewebsites.net/api/Empleados";
-            cliente.Headers["content-type"] = "application/json";
-            String contenido = cliente.DownloadString(url);
-
-            //Empleado emp = JsonConvert.DeserializeObject(contenido) as Empleado; enviar empleado simple
-            lista = JsonConvert.DeserializeObject <List<Empleado>>(contenido);*/
